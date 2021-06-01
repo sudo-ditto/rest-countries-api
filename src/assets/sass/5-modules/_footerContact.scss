@@ -1,0 +1,42 @@
+.footer-contact {
+    .footer-message {
+        max-width: 300px;
+
+        h3 {
+            font-family: 'Times New Roman', Arial, sans-serif;
+            font-weight: light;
+            font-size: 28px;
+        }
+        .contact-link {
+            color     : $contactLink;
+            font-style: italic;
+        }
+    }
+
+    .social {
+        margin: 15px 0 10px;
+
+        p {
+            font-family: 'Montserrat', 'Courier New', Courier, monospace;
+            font-size  : 14px;
+            font-style : italic;
+        }
+
+        .social-icons {
+            margin   : 10px 0;
+            color    : $socialIcons;
+            font-size: 25px;
+
+            a:not(:last-of-type) {
+                margin-right: 15px;
+            }
+
+            a:first-of-type {
+                svg {
+                    // Aligning icons
+                    margin-bottom: 2px;
+                }
+            }
+        }
+    }
+}

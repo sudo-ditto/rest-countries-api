@@ -1,0 +1,362 @@
+// HEADER
+
+@media screen and (min-width: 860px) {
+    header {
+        .color-switch--container {
+            padding: 15px;
+            svg {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 480px) {
+    h1 {
+        font-size: 58px;
+    }
+
+    section {
+        margin-top: 155px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .progress-bar--container {
+        left: -95px;
+    }
+
+    .main-navigation {
+        right: -95px;
+    }
+
+    #hero {
+        .project {
+
+            .project-description {
+
+                .project-title {
+                    font-size  : 50px;
+                    width      : 80%;
+                    text-shadow: 1px 1px rgb(233, 207, 94);
+                    line-height: 1.1;
+                }
+
+                .project-type {
+                    font-size: 20px;
+                    margin   : 20px 0 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 560px) {
+    h1 {
+        font-size: 70px;
+
+        span {
+            line-height: 70px;
+        }
+    }
+
+    .main-navigation li {
+        font-size: 18px;
+    }
+
+    #hero {
+        .project {
+
+            .project-description {
+
+                .project-type {
+                    font-size: 22px;
+                }
+
+                .project-stack {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 650px) {
+    #hero {
+        .hero-description {
+            width: 80%;
+        }
+    }
+}
+
+@media screen and (min-width: 990px) {
+    h1 {
+        font-size: 105px;
+
+        span {
+            line-height: 1;
+        }
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .main-navigation li {
+        font-size: 20px;
+    }
+
+    #hero {
+        .project {
+            position: relative;
+            @include flexItem(center, center, row);
+            padding-right: 30%;
+            box-sizing   : border-box;
+
+            .project-description {
+                position        : absolute;
+                right           : 10vw;
+                max-width       : 300px;
+                background-color: rgba(255, 255, 255, 0.247);
+                border-radius   : 10px;
+                padding         : 25px;
+
+                .project-title {
+                    margin   : 0;
+                    font-size: 50px;
+                    width    : 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    h1 {
+        font-size: 125px;
+        height   : 80vh;
+    }
+
+    #hero {
+        .hero-description {
+            width: 80%;
+        }
+
+        .project {
+            .project-description {
+
+                .project-type {
+                    font-size: 22px;
+                }
+
+                .project-stack {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1420px) {
+    h1 {
+        font-size: 155px;
+    }
+
+    #hero {
+
+        .project {}
+    }
+}
+
+@media screen and (min-width: 1820px) {
+    h1 {
+        font-size: 175px;
+
+
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    .main-navigation li {
+        font-size: 24px;
+    }
+
+    #hero {
+        .hero-description {
+            width: 80%;
+        }
+
+        .project {}
+    }
+}
+
+// Progress bar
+
+@media screen and (min-height: 680px) {
+    .progress-bar--container {
+        left : -180px;
+        width: 400px;
+    }
+}
+
+@media screen and (min-height: 680px) {
+    @media screen and (min-width: 700px) {
+        .progress-bar--container {
+            top  : 55%;
+            left : -230px;
+            width: 550px;
+        }
+    }
+}
+
+// Footer
+
+// footer contact
+@media screen and (min-width: 880px) {
+    footer {
+
+        .footer-wrapper {
+            padding: 0 0 100px;
+        }
+    }
+
+    .footer-contact {
+        @include flexItem(space-between, center, row);
+
+        h3 {
+            font-size: 3.889vw;
+            line-height: 4.167vw;
+        }
+
+        .social {
+            p {
+                font-size: 15px;
+            }
+
+            .social-icons {
+                font-size : 26px;
+                text-align: right;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1030px) {
+    footer {
+
+        .footer-wrapper {
+            padding: 0;
+            width  : 65%
+        }
+    }
+
+    .footer-contact {
+        @include flexItem(space-between, center, row);
+
+        .social {
+            p {
+                font-size: 12px;
+            }
+
+            .social-icons {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .footer-contact {
+        h3 {
+            min-width: 500px;
+        }
+
+        .social {
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+// footer afterword
+@media screen and (min-width: 880px) {
+    .afterword {
+        margin: 20px 0 30px;
+
+        .afterword-wrapper {
+            justify-content: center;
+
+            .footer-logo {
+                width : 105px;
+                height: 105px;
+
+                img {
+                    width: 130px;
+                    left : -50px;
+                    top  : 30px;
+                }
+            }
+
+            .thanks {
+                position: absolute;
+                left    : calc(50% + 10vh);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1030px) {
+    .afterword {
+        margin: 100px 0 100px;
+
+        .afterword-wrapper {
+
+            .footer-logo {
+                width : 130px;
+                height: 130px;
+                height: 12.5VW;
+                width : 12.5VW;
+
+                img {
+                    width: 16.66666667VW;
+                    left : -6.94444444VW;
+                    top  : 2.08333333VW;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1230px) {
+    .afterword {
+        margin: 100px 0 100px;
+
+        .afterword-wrapper {
+
+            .thanks {
+                left: calc(50% + 13vh);
+            }
+        }
+    }
+}
+
+// CONTACT
+
+@media screen and (min-width: 1000px) {
+    #contact {
+        padding: 50px 0 0;
+        h1 {
+            font-size: 8vw;
+        }
+        @include flexItem (center, flex-start, row); 
+        #contact-form {
+            margin-top: 0;
+        }
+    }
+}

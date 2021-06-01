@@ -1,0 +1,18 @@
+.progress-bar--container {
+    position           : fixed;
+    top                : 50%;
+    left               : -105px;
+    width              : 250px;
+    height             : 1px;
+    border-top         : 1px solid $progBarContainer;
+    transform          : rotate(90deg);
+    
+    .progress-bar {
+        width     : 50px;
+        height: 1px;
+        position: relative;
+        top: -1px;
+        border-top: 1px solid $progressBar;
+
+    }
+}

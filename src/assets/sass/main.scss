@@ -1,0 +1,44 @@
+// This is the single file output by sass. It is intended to only @import other files.
+
+// 1 - HELPERS
+@import '1-helpers/_variables';
+@import '1-helpers/_functions';
+@import '1-helpers/_mixins';
+
+
+// 2 - TOOLS
+@import '2-tools/_reset';
+@import '2-tools/_animation';
+
+// 3 - BASICS
+@import '3-basics/_links';
+@import '3-basics/_typography';
+@import '3-basics/_fonts';
+
+// 4 - LAYOUT
+@import '4-layout/_pageLayout';
+@import '4-layout/_logo';
+
+// 5 - MODULES
+@import '5-modules/_mainNav';
+@import '5-modules/_progressBar';
+@import '5-modules/_heroTitle';
+@import '5-modules/_projectCard';
+@import '5-modules/_smallFooter';
+@import '5-modules/_afterword';
+@import '5-modules/_footerContact';
+@import '5-modules/_colorSwitch';
+@import '5-modules/_gameSwitch';
+@import '5-modules/_nextPage';
+@import '5-modules/_contactForm';
+
+//  6 - PAGES
+@import '6-pages/_header';
+@import '6-pages/_hero';
+@import '6-pages/_about';
+@import '6-pages/_gallery';
+@import '6-pages/_footer';
+
+
+//  7 - QUERIES 
+@import '7-queries/_mediaQueries';

@@ -1,0 +1,175 @@
+h1 {
+    -webkit-animation: tilt-in-br 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation        : tilt-in-br 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes tilt-in-br {
+    0% {
+        -webkit-transform: rotateY(-35deg) rotateX(-20deg) translate(90px, 90px) skew(12deg, 15deg);
+        transform        : rotateY(-35deg) rotateX(-20deg) translate(90px, 90px) skew(12deg, 15deg);
+        opacity          : 0;
+    }
+
+    100% {
+        -webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+        transform        : rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+        opacity          : 1;
+    }
+}
+
+@keyframes tilt-in-br {
+    0% {
+        -webkit-transform: rotateY(-35deg) rotateX(-20deg) translate(90px, 90px) skew(12deg, 15deg);
+        transform        : rotateY(-35deg) rotateX(-20deg) translate(90px, 90px) skew(12deg, 15deg);
+        opacity          : 0;
+    }
+
+    100% {
+        -webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+        transform        : rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+        opacity          : 1;
+    }
+}
+
+
+
+// Footer logo
+.footer-logo {
+    img {
+        -webkit-animation: scale-in-center 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation        : scale-in-center 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+}
+
+/**
+* ----------------------------------------
+* animation scale-in-center
+* ----------------------------------------
+*/
+@-webkit-keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+        transform        : scale(0);
+        opacity          : 1;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform        : scale(1);
+        opacity          : 1;
+    }
+}
+
+@keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+        transform        : scale(0);
+        opacity          : 1;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform        : scale(1);
+        opacity          : 1;
+    }
+
+}
+
+.small-footer {
+    &::before {
+        -webkit-animation: scale-in-hor-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation        : scale-in-hor-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+}
+
+
+/**
+ * ----------------------------------------
+ * animation scale-in-hor-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes scale-in-hor-center {
+    0% {
+        -webkit-transform: scaleX(0);
+        transform        : scaleX(0);
+        opacity          : 1;
+    }
+
+    100% {
+        -webkit-transform: scaleX(1);
+        transform        : scaleX(1);
+        opacity          : 1;
+    }
+}
+
+@keyframes scale-in-hor-center {
+    0% {
+        -webkit-transform: scaleX(0);
+        transform        : scaleX(0);
+        opacity          : 1;
+    }
+
+    100% {
+        -webkit-transform: scaleX(1);
+        transform        : scaleX(1);
+        opacity          : 1;
+    }
+}
+
+/* Make the element rotate infinitely. */
+
+#warped {
+    animation: rotating 30s linear infinite;
+
+}
+
+@keyframes rotating {
+    from {
+        -ms-transform    : rotate(0deg);
+        -moz-transform   : rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform     : rotate(0deg);
+        transform        : rotate(0deg);
+    }
+
+    to {
+        -ms-transform    : rotate(360deg);
+        -moz-transform   : rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform     : rotate(360deg);
+        transform        : rotate(360deg);
+    }
+}
+
+// Project animation
+
+
+.isVisible {
+    -webkit-animation: fade-in 1.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation        : fade-in 1.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/**
+ * ----------------------------------------
+ * animation fade-in
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

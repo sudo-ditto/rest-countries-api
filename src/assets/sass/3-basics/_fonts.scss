@@ -1,0 +1,150 @@
+// @font-face {
+//     font-family: 'Visia Pro';
+//     src        : url('../../fonts/VisiaPro-Regular.woff') format('woff'),
+//         url('../../fonts/VisiaPro-Regular.woff2') format('woff2');
+//     font-weight: normal;
+//     font-style : normal;
+// }
+
+// @font-face {
+//     font-family: 'Visia Pro';
+//     src        : url('../../fonts/VisiaPro-HeavyItalic.woff') format('woff'),
+//         url('../../fonts/VisiaPro-HeavyItalic.woff2') format('woff2');
+//     font-style : italic;
+//     font-weight: 600;
+// }
+
+// @font-face {
+//     font-family: 'Visia Pro';
+//     src        : url('VisiaPro-ExtraBoldItalic.eot');
+//     src        : local('Visia Pro ExtraBold Italic'), local('VisiaPro-ExtraBoldItalic'),
+//         url('VisiaPro-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+//         url('VisiaPro-ExtraBoldItalic.woff2') format('woff2'),
+//         url('VisiaPro-ExtraBoldItalic.woff') format('woff'),
+//         url('VisiaPro-ExtraBoldItalic.ttf') format('truetype');
+//     font-weight: 800;
+//     font-style : italic;
+// }
+
+// @font-face {
+//     font-family: 'Visia Pro';
+//     src        : url('VisiaPro-ExtraLightItalic.eot');
+//     src        : local('Visia Pro ExtraLight Italic'), local('VisiaPro-ExtraLightItalic'),
+//         url('VisiaPro-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+//         url('VisiaPro-ExtraLightItalic.woff2') format('woff2'),
+//         url('VisiaPro-ExtraLightItalic.woff') format('woff'),
+//         url('VisiaPro-ExtraLightItalic.ttf') format('truetype');
+//     font-weight: 200;
+//     font-style : italic;
+// }
+
+// @font-face {
+//     font-family: 'Visia Pro';
+//     src        : url('VisiaPro-Italic.eot');
+//     src        : local('Visia Pro Italic'), local('VisiaPro-Italic'),
+//         url('VisiaPro-Italic.eot?#iefix') format('embedded-opentype'),
+//         url('VisiaPro-Italic.woff2') format('woff2'),
+//         url('VisiaPro-Italic.woff') format('woff'),
+//         url('VisiaPro-Italic.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style : italic;
+// }
+
+// @font-face {
+//     font-family: 'Visia Pro';
+//     src        : url('VisiaPro-HeavyItalic.eot');
+//     src        : local('Visia Pro Heavy Italic'), local('VisiaPro-HeavyItalic'),
+//         url('VisiaPro-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+//         url('VisiaPro-HeavyItalic.woff2') format('woff2'),
+//         url('VisiaPro-HeavyItalic.woff') format('woff'),
+//         url('VisiaPro-HeavyItalic.ttf') format('truetype');
+//     font-weight: 900;
+//     font-style : italic;
+// }
+
+@font-face {
+    font-family: 'Visia Pro';
+    src        : url('../../fonts/VisiaPro-Bold.woff2') format('woff2'),
+        url('../../fonts/VisiaPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style : normal;
+}
+
+@font-face {
+    font-family: 'Visia Pro';
+    src        : url('../../fonts/VisiaPro-ExtraBold.woff2') format('woff2'),
+        url('../../fonts/VisiaPro-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style : normal;
+}
+
+@font-face {
+    font-family: 'Visia Pro';
+    src        : url('../../fonts/VisiaPro-SemiBold.woff2') format('woff2'),
+        url('../../fonts/VisiaPro-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style : normal;
+}
+
+@font-face {
+    font-family: 'Visia Pro';
+    src        : url('../../fonts/VisiaPro-LightItalic.woff2') format('woff2'),
+        url('../../fonts/VisiaPro-LightItalic.woff2') format('woff');
+    font-weight: 300;
+    font-style : italic;
+}
+
+@font-face {
+    font-family: 'Visia Pro';
+    src        : url('../../fonts/VisiaPro-Heavy.woff2') format('woff2'),
+        url('../../fonts/VisiaPro-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style : normal;
+}
+
+@font-face {
+    font-family: 'Visia Pro';
+    src        : url('../../fonts/VisiaPro-Regular.woff2') format('woff2'),
+        url('../../fonts/VisiaPro-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style : normal;
+}
+
+@font-face {
+    font-family: 'Visia Pro';
+    src        : url('../../fonts/VisiaPro-ExtraLight.woff2') format('woff2'),
+        url('../../fonts/VisiaPro-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style : normal;
+}
+
+@font-face {
+    font-family: 'Visia Pro';
+    src        : url('../../fonts/VisiaPro-Light.woff2') format('woff2'),
+        url('../../fonts/VisiaPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style : normal;
+}
+
+
+// SACRAMENTO
+
+@font-face {
+    font-family: 'Sacramento';
+    src        : url('../../fonts/sacramento/sacramento-regular-webfont.woff2') format('woff2'),
+        url('../../fonts//sacramento/sacramento-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style : normal;
+
+}
+
+// MONTSERRAT
+
+@font-face {
+    font-family: 'Montserrat';
+    src        : url('../../fonts/montserrat/montserrat-lightitalic-webfont.woff2') format('woff2'),
+        url('../../fonts/montserrat/montserrat-lightitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style : italic;
+
+}
