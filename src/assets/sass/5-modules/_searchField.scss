@@ -1,0 +1,26 @@
+.search-field__container {
+    @include flexItem(center, center, row);
+    position: relative;
+    box-sizing: border-box;
+    padding: 5px 15px;
+    max-width: 350px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px;
+    box-shadow: 0 0 10px 0px rgba(50, 50, 93, 0.2);
+    img {
+        width: 20px;
+        position: absolute;
+        left: 25px;
+    }
+    
+    input {
+        padding: 10px 15px;
+        border: none;
+        font-size: 14px;
+        
+        &::placeholder {
+            letter-spacing: 1.2px;
+            color: rgba(110, 110, 110, 0.74);
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.filter__container {
+    max-width: 150px;
+    margin: 50px 0;
+    border: 1px solid red;
+    select {
+        padding: 10px 15px;
+        background-color: white;
+        border: none;
+    }
+}
