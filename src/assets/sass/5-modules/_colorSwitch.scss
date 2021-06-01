@@ -1,7 +1,14 @@
-.color-switch--container {
-    border-radius: 50%;
-    border: 2px solid $logoBorder;
-    padding: 10px;
-    background-color: $logoBg;
+.theme-color--switch {
+    @include flexItem(center, center, row);
     cursor: pointer;
+
+    img {
+        width: 20px;
+        margin-right: 10px;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 600;
+    }
 }

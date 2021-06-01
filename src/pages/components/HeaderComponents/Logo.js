@@ -2,8 +2,8 @@ import React from 'react';
 
 const Logo = () => {
     return (
-        <div>
-            
+        <div className="logo__container">
+            <p className="logo-text">Where in the world?</p>
         </div>
     )
 }

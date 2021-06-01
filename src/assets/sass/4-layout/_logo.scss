@@ -1,6 +1,7 @@
-.logo--container {
-    p {
-        text-transform: uppercase;
-        letter-spacing: 2px;
+.logo__container {
+    .logo-text {
+        letter-spacing: 1px;
+        font-size: 15px;
+        font-weight: 800;
     }
 }
