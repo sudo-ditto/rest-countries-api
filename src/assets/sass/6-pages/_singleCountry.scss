@@ -1,23 +1,28 @@
 #country {
-    margin-top: 22vh;
-    padding: 30px 25px;
+    margin-top: 16vh;
+    margin-bottom: 5vh;
+    padding   : 30px 25px;
+
     .country-data__container {
+        margin-top: 60px;
+
         img {
             width: 100%;
         }
-        
+
         .country-data {
             margin-top: 15px;
 
             h1 {
-                font-size: 28px;
+                font-size  : 28px;
                 font-weight: 800;
                 line-height: 2.5;
             }
+
             p {
                 margin-bottom: 10px;
-                font-size: 15px;
-                font-weight: 600;
+                font-size    : 15px;
+                font-weight  : 600;
 
                 span {
                     font-weight: normal;
@@ -25,7 +30,13 @@
             }
 
             .sub-data {
-                margin: 20px 0;
+                margin: 40px 0 30px;
+            }
+
+            h3 {
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 3;
             }
         }
     }

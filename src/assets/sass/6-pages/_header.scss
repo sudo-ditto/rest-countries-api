@@ -2,6 +2,7 @@ header {
     @include flexItem(space-between, center, row);
     box-sizing: border-box;
     position: fixed;
+    background-color: $headerBg;
     top: 0;
     left: 0;
     width: 100%;
