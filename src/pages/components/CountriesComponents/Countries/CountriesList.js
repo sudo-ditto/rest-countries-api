@@ -20,7 +20,9 @@ const Countries = () => {
     useEffect(() => {
         axios.get(countriesUrl).then((countries) => {
             console.log(countries.data);
-            dispatch(countriesActions.setCountries(countries.data));
+            const countriesData = countries.data;
+            dispatch(countriesActions.setCountries(countriesData));
+            localStorage.setItem('countries', JSON.stringify(countriesData));
         });
     }, []);
 

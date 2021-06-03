@@ -1,11 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Border = (props) => {
+const Border = ({country, countryUrl}) => {
     console.log('work');
     return (
-        <div className="border">
-            {props.country}
-        </div>
+        <Link to={countryUrl}>
+            <div className="border">
+                {country} 
+            </div>
+        </Link>
     )
 }
 
