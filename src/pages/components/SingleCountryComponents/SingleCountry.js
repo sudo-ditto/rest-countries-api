@@ -108,7 +108,7 @@ const SingleCountry = () => {
                             <h3>Border Countries:</h3>
                             <div className="border-list">
                                 {country.borders.map((brd, index) => {
-                                    return <Border countryUrl={countryUrl + borderFilter(brd)} country={borderFilter(brd)} key={index}></Border>
+                                    return <Border countryUrl={borderFilter(brd)} country={borderFilter(brd)} key={index}></Border>
                                 })}
                             </div>
                         </div>
