@@ -1,0 +1,16 @@
+// Go Back button
+#go-back__btn {
+    padding         : 10px 20px;
+    background-color: white;
+    border          : none;
+    box-shadow      : 0 0 10px -0px rgba(160, 159, 159, 0.404);
+
+    .arrow-back {
+        margin-right: 7px;
+        color       : rgb(36, 36, 36);
+
+        svg {
+            font-size: 15px;
+        }
+    }
+}
