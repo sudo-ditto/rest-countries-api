@@ -70,7 +70,7 @@ const SingleCountry = () => {
     useEffect(() => {
         fetchCountry();
         fetchCountries();
-    }, []);
+    }, [countryID]);
 
     return (
         <div className="country-data__container">
