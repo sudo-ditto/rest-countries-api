@@ -55,7 +55,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+**Note**: Project is still in development!
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 [REST Countries API with theme switcher](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca) is a project that I built as a challenge from the [frontendmentor.io](https://www.frontendmentor.io) website.
 
