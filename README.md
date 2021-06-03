@@ -51,7 +51,6 @@
   </ol>
 </details>
 
-<br></br>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -60,7 +59,6 @@
 
 [REST Countries API with theme switcher](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca) is a project that I built as a challenge from the [frontendmentor.io](https://www.frontendmentor.io) website.
 
-<br></br>
 
 ### Challenge Brief
 
@@ -76,7 +74,6 @@ Your users should be able to:
 * Click on a country to see more detailed information on a separate page
 * Click through to the border countries on the detail page
 * Toggle the color scheme between light and dark mode (optional)
-<br></br>
 
 ### Built With
 
@@ -88,12 +85,10 @@ This section should list any major frameworks that you built your project using.
 * [SASS](https://sass-lang.com/)
 * [axios](https://github.com/axios/axios)
 
-<br></br>
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-<br></br>
 
 ### Installation and Setup
 
@@ -111,12 +106,10 @@ To Visit App:
 
 `localhost:3000`  
 
-<br></br>
 
 ### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-<br></br>
 
 #### `npm run build`
 
@@ -128,7 +121,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-<br></br>
 
 ### Prerequisites
 
@@ -138,15 +130,12 @@ This is an example of how to list things you need to use the software and how to
   npm install npm@latest -g
   ```
 
-<br></br>
 
 ## Project Status
 
-<br></br>
 
 ### Current
 Adding styles for larger devices and working on the filter by region option.
-<br></br>
 
 ### Next steps:
 - [ ] Adding styles for larger devices.
@@ -156,7 +145,6 @@ Adding styles for larger devices and working on the filter by region option.
 - [ ] Add animations.
 - [ ] Optimizing and refactoring code.
 
-<br></br>
 
 ## Project Screen Shots
 
