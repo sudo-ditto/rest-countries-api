@@ -83,6 +83,8 @@ This section should list any major frameworks that you built your project using.
 * [Redux](https://redux.js.org/)
 * [Redux Toolkit](https://redux-toolkit.js.org/)
 * [SASS](https://sass-lang.com/)
+* [React Font Awesome](https://fontawesome.com/)
+* [Rest Countries API](https://restcountries.eu/)
 * [axios](https://github.com/axios/axios)
 
 
