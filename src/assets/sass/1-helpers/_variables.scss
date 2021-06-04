@@ -1,8 +1,8 @@
 // ------- COLORS -------
 
+// Default theme
 // page
 
-// Light theme
 $mainTextColor: #1f1f1f;
 $mainBgColor: hsl(0, 0%, 98%);
 
@@ -11,35 +11,19 @@ $mainBgColor: hsl(0, 0%, 98%);
 $headerBoxShadow: rgba(0, 0, 0, 0.137);
 $headerBg: white;
 
-// logo
-$logoBorder: rgb(241, 212, 44);
-$logoBg: transparent;
-
 // COUNTRY LIST
 $countryCardBoxShadow: rgba(175, 175, 175, 0.233);
 
-// FOOTER
-$footerBg: rgb(241, 212, 44);
-$footerLogoBg: white;
-$contactLink: rgb(0, 17, 255);
-$socialIcons: white;
+// Dark Theme
+// page
 
-// progress bar
-$progBarContainer: rgba(31, 31, 31, 0.2); // color for the main progress line
-$progressBar: #1f1f1f; // color for the progress line
+$mainTextColor: #1f1f1f;
+$mainBgColor: hsl(0, 0%, 98%);
 
-// main navigation
+// HEADER
 
-// PROJECTS
-$projectImage: rgba(0, 0, 0, 0.1); // light box shadow color 
-$projectFigureBg: yellow; // light box shadow color 
-$projectFigureHover: rgb(225, 110, 65); // light box shadow color 
+$headerBoxShadow: rgba(0, 0, 0, 0.137);
+$headerBg: white;
 
-// CONTACT
-
-$inputBorder: #1F1F1F;
-$inputColor: rgb(51, 51, 51);
-
-// MARGINS & PADDINGS
-
-// footer
+// COUNTRY LIST
+$countryCardBoxShadow: rgba(175, 175, 175, 0.233);
