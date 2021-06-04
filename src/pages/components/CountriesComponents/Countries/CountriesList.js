@@ -4,8 +4,11 @@ import { countriesActions } from '../../../../recuders/countriesReducer';
 
 import { Link } from 'react-router-dom';
 import CountryCard from '../../../components/CountriesComponents/Countries/CountryCard';
-import { fetchCountries } from '../../../../actions/countriesActions';
+import { fetchCountries, filterCountries } from '../../../../actions/countriesActions';
 
+const initial = {
+    initial: true
+}
 const Countries = () => {
     const dispatch = useDispatch();
 
@@ -15,6 +18,8 @@ const Countries = () => {
     const localCountries = useSelector(state => state.countries.localCountries);
     const searchValue = useSelector(state => state.search.value);
     const filter = useSelector(state => state.filter.category)
+    const theme = useSelector(state => state.theme.dark)
+
 
     useEffect(() => {
         dispatch(fetchCountries());
@@ -22,49 +27,16 @@ const Countries = () => {
 
 
 
-    const filterData = (data, category) => {
-        data.filter((country) => {
-            if (category !== 'All') {
-                /* Return countries where region 
-                is equivalent to the filter category */
-                console.log('Not all');
-                return country.region === category;
+    useEffect(() => {
+        dispatch(filterCountries(allCountries, filter));
+        if (initial.initial ) {
+            initial.initial = false;
+        }
 
-            } else {
-                // Return all countries
-                console.log('all');
-
-                return country.region;
-            }
-        })
-    }
-
-    const filtered = filterData(allCountries, filter);
+    }, [dispatch, filter, initial.initial]);
 
     useEffect(() => {
-        dispatch(countriesActions.setLocalCountries(filtered));
-    }, [dispatch, filter]);
-
-    console.log(filter);
-    console.log(localCountries);
-
-    // const [localCountries, setLocalCountries] = useState([]);
-
-    // const error = useSelector(state => state.countries.error)
-
-
-    useEffect(() => {
-        // if (localStorage.getItem('countries')) {
-        //     const jsonData = JSON.parse(localStorage.getItem('countries'));
-        //     dispatch(countriesActions.setCountries(jsonData));
-        // } else {
-        //     fetchAllCountries();
-        // }
-
-    }, []);
-
-    useEffect(() => {
-        // dispatch(countriesActions.setLocalCountries(allCountries));
+        dispatch(countriesActions.setLocalCountries(allCountries));
     }, []);
 
 
@@ -75,10 +47,6 @@ const Countries = () => {
                 return country.name.toLowerCase().includes(inp.toLowerCase());
             })));
     }
-
-    useEffect(() => {
-        // filterCountries(filter, 'region');
-    }, [filter]);
 
     // SEARCH FEATURE
     useEffect(() => {
@@ -95,11 +63,17 @@ const Countries = () => {
     return (
         <section id="country-list">
             <div className="country-grid">
-                {allCountries.map((country) => {
+                {initial.initial ? (allCountries.map((country) => {
                     return (
                         <Link to={"/" + country.name} key={country.alpha3Code}><CountryCard name={country.name} population={country.population} region={country.region} capital={country.capital} flag={country.flag} /></Link>
                     );
-                })
+                })) : (
+                    localCountries.map((country) => {
+                        return (
+                            <Link to={"/" + country.name} key={country.alpha3Code}><CountryCard name={country.name} population={country.population} region={country.region} capital={country.capital} flag={country.flag} /></Link>
+                        );
+                    })
+                )
                 }
             </div>
         </section>

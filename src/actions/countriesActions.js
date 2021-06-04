@@ -28,10 +28,25 @@ export const fetchCountries = () => {
     }
 }
 
-export const filterCountries = (filtered) => {
+const filterData = (data, category) => {
+    return data.filter((country) => {
+        if (category !== 'All') {
+            /* Return countries where region 
+            is equivalent to the filter category */
+            return country.region === category;
+
+        } else {
+            // Return all countries
+            return country.region;
+        }
+    })
+}
+
+export const filterCountries = (data, category) => {
     return dispatch => {
-        console.log(filtered);
-            dispatch(countriesActions.setLocalCountries(filtered));
+        const filtered = filterData(data, category);
+        
+        dispatch(countriesActions.setLocalCountries(filtered));
     }
 }
 
