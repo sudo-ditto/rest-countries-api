@@ -1,12 +1,16 @@
 #country {
     margin-top: 90px;
     padding   : 30px 25px 40px;
-    
+
     .country-data__container {
         margin-top: 60px;
 
-        img {
-            width: 100%;
+        .flag__container {
+            height: 100%;
+
+            img {
+                width: 100%;
+            }
         }
 
         .country-data {
@@ -33,7 +37,7 @@
             }
 
             h3 {
-                font-size: 18px;
+                font-size  : 18px;
                 font-weight: 600;
                 line-height: 3;
             }

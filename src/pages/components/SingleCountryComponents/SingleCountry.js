@@ -11,22 +11,22 @@ import Border from './Border';
 
 const SingleCountry = () => {
     const dispatch = useDispatch();
-    
+
     const { country: countryID } = useParams();
-    
+
     const allCountries = useSelector(state => state.countries.countries);
-    
+
     const country = useSelector(state => state.country.country);
-    
+
     // const error = useSelector(state => state.country.error);
-    
-    
+
+
     // const countries = useSelector(state => state.countries.countries)
     // const countriesError = useSelector(state => state.countries.error)
-    
-    
+
+
     const countriesUrl = 'https://restcountries.eu/rest/v2/all';
-    
+
     // Refactor later
     const fetchCountries = async () => {
         // Parse cached countries from string to JSON
@@ -77,32 +77,37 @@ const SingleCountry = () => {
             {country ?
                 (
                     <>
-                        <img src={country.flag} alt="" />
+                        <div className="flag__container">
+                            <img src={country.flag} alt="" />
+                        </div>
 
                         <div className="country-data">
                             <h1>{country.name}</h1>
 
-                            <div className="main-data">
-                                <p>Native name: <span>{country.nativeName}</span></p>
-                                <p>Population: <span>{country.population}</span></p>
-                                <p>Region: <span>{country.region}</span></p>
-                                <p>Sub Region: <span>{country.subRegion}</span></p>
-                                <p>Capital: <span>{country.capital}</span></p>
-                            </div>
+                            <div className="single-data__container">
 
-                            <div className="sub-data">
+                                <div className="main-data">
+                                    <p>Native name: <span>{country.nativeName}</span></p>
+                                    <p>Population: <span>{country.population}</span></p>
+                                    <p>Region: <span>{country.region}</span></p>
+                                    <p>Sub Region: <span>{country.subRegion}</span></p>
+                                    <p>Capital: <span>{country.capital}</span></p>
+                                </div>
 
-                                <p>Top Level Domain: <span>{country.topLevelDomain}</span></p>
-                                <p>Currencies: <span>
-                                    {country.currencies.map(currency => {
-                                        return <span className="currency" key={currency.name}>{currency.name}</span>
-                                    })}
-                                </span></p>
-                                <p>Languages: <span>
-                                    {country.languages.map(language => {
-                                        return <span key={language.name} className="language">{language.name}</span>
-                                    })}
-                                </span></p>
+                                <div className="sub-data">
+
+                                    <p>Top Level Domain: <span>{country.topLevelDomain}</span></p>
+                                    <p>Currencies: <span>
+                                        {country.currencies.map(currency => {
+                                            return <span className="currency" key={currency.name}>{currency.name}</span>
+                                        })}
+                                    </span></p>
+                                    <p>Languages: <span>
+                                        {country.languages.map(language => {
+                                            return <span key={language.name} className="language">{language.name}</span>
+                                        })}
+                                    </span></p>
+                                </div>
                             </div>
 
                             <h3>Border Countries:</h3>
