@@ -1,16 +1,17 @@
 .search-field__container {
-    @include flexItem(center, center, row);
+    @include flexItem(flex-start, center, row);
     position: relative;
     box-sizing: border-box;
     padding: 5px 15px;
+    padding-left: 30px;
     max-width: 350px;
     background-color: $inputBg;
     box-shadow: 0 0 10px 0px $inputBoxShadow;
     color: $inputColor;
 
     input {
-        margin-left: 5px;
-        padding: 10px 15px;
+        margin-left: 10px;
+        padding: 10px 75px 10px 15px;
         border: none;
         font-size: 14px;
         

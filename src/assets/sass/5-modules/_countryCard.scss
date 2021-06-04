@@ -5,17 +5,26 @@
     box-shadow: 0 0 10px 5px $countryCardBoxShadow;
     margin-bottom: 60px;
     cursor: pointer;
+    height: 90%;
 
     .country-flag {
+        height: 50%;
+
         img {
+            height: 100%;
             width: 100%;
             background-position: center;
+            object-fit: cover;
 
         }
     }
 
     .country-data {
         padding: 15px 25px 30px;
+        padding: 2vh 3vh 4vh;
+        box-sizing: border-box;
+        height: 50%;
+        @include flexItem(center, flex-start, column);
 
         h2 {
             margin-bottom: 15px;
