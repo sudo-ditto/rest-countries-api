@@ -1,21 +1,22 @@
-import React, {useEffect} from 'react'
-import searchIcon from '../../../../assets/images/search-outline.svg';
+import React from 'react'
 import { useDispatch } from 'react-redux';
 import { searchActions } from '../../../../recuders/searchFieldReducer';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 const SearchField = () => {
 
     const dispatch = useDispatch();
-    
+
     const onKeyDownHandler = async (event) => {
-         dispatch(searchActions.setSearchValue(event.target.value));
+        dispatch(searchActions.setSearchValue(event.target.value));
     }
 
 
 
     return (
         <div className="search-field__container">
-            <img src={searchIcon} alt="Search icon" />
+            <FontAwesomeIcon icon={faSearch} />
             <input type="text" placeholder="Search for country..." onKeyDown={onKeyDownHandler} />
         </div>
     )

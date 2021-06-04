@@ -1,2 +1,43 @@
 .dark-theme {
+    color: $mainTextColorDark;
+
+    #root>section {
+        background-color: $mainBgColorDark;
+    }
+
+    header {
+        background-color: $headerBgDark;
+
+
+        color: $mainTextColorDark;
+
+    }
+
+    #countries .search-field__container {
+        color           : $inputColorDark;
+        background-color: $inputBgDark;
+
+        input {
+            background-color: $inputBgDark;
+
+            &::placeholder {
+                color: $inputPlaceholderColorDark;
+            }
+        }
+    }
+
+    .filter__container {
+        background-color: $filterBgDark;
+        box-shadow      : 0 0 5px 1px $filterCardBoxShadowDark;
+        color: $filterColorDark;
+
+        select {
+            background-color: $filterBgDark;
+            color           : $filterColorDark;
+        }
+    }
+
+    .country-card {
+        box-shadow: 0 0 10px 5px $countryCardBoxShadowDark;
+    }
 }

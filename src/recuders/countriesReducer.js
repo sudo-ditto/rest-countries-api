@@ -2,6 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
     countries: [],
+    localCountries: [],
     error: null
 }
 
@@ -12,6 +13,9 @@ const countriesSlice = createSlice({
     reducers: {
         setCountries(state, action) {
             state.countries = action.payload;
+        },
+        setLocalCountries(state, action) {
+            state.localCountries = action.payload;
         },
         setError(state, action) {
             state.countries = action.payload;

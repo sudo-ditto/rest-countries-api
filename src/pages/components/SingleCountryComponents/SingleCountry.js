@@ -18,11 +18,11 @@ const SingleCountry = () => {
     
     const country = useSelector(state => state.country.country);
     
-    const error = useSelector(state => state.country.error);
+    // const error = useSelector(state => state.country.error);
     
     
-    const countries = useSelector(state => state.countries.countries)
-    const countriesError = useSelector(state => state.countries.error)
+    // const countries = useSelector(state => state.countries.countries)
+    // const countriesError = useSelector(state => state.countries.error)
     
     
     const countriesUrl = 'https://restcountries.eu/rest/v2/all';
@@ -50,7 +50,7 @@ const SingleCountry = () => {
     }
 
     const countryUrl = 'https://restcountries.eu/rest/v2/name/' + countryID;
-    const borderUrl = 'https://restcountries.eu/rest/v2/name/';
+    // const borderUrl = 'https://restcountries.eu/rest/v2/name/';
 
     const fetchCountry = async () => {
         try {

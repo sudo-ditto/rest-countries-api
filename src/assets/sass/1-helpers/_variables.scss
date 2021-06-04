@@ -14,16 +14,36 @@ $headerBg: white;
 // COUNTRY LIST
 $countryCardBoxShadow: rgba(175, 175, 175, 0.233);
 
+// INPUT
+$inputBg: white;
+$inputBoxShadow: rgba(50, 50, 93, 0.2);
+$inputColor: hsl(207, 26%, 17%);
+$inputPlaceholderColor: rgba(110, 110, 110, 0.74);
+
+// FILTER
+$filterBg: white;
+
 // Dark Theme
 // page
 
-$mainTextColor: #1f1f1f;
-$mainBgColor: hsl(0, 0%, 98%);
+$mainTextColorDark: hsl(0, 0%, 98%);
+$mainBgColorDark: hsl(207, 26%, 17%);
 
 // HEADER
 
-$headerBoxShadow: rgba(0, 0, 0, 0.137);
-$headerBg: white;
+$headerBoxShadowDark: rgba(0, 0, 0, 0.137);
+$headerBgDark: hsl(209, 23%, 22%);
 
 // COUNTRY LIST
-$countryCardBoxShadow: rgba(175, 175, 175, 0.233);
+$countryCardBoxShadowDark: rgba(0, 0, 0, 0.233);
+
+// INPUT
+$inputBgDark: hsl(209, 23%, 22%);
+$inputBoxShadowDark: rgba(50, 50, 93, 0.2);
+$inputColorDark: white;
+$inputPlaceholderColorDark: rgba(243, 243, 243, 0.863);
+
+// FILTER
+$filterBgDark: hsl(209, 23%, 22%);
+$filterColorDark: white;
+$filterCardBoxShadowDark: rgba(0, 0, 0, 0.233);

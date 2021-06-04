@@ -2,13 +2,9 @@
     @include flexItem(center, center, row);
     cursor: pointer;
 
-    img {
-        width: 20px;
-        margin-right: 10px;
-    }
-
     p {
         font-size: 14px;
         font-weight: 600;
+        margin-left: 12px;
     }
 }
