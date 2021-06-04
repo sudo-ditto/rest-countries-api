@@ -142,7 +142,8 @@ Adding styles for larger devices and working on the filter by region option.
 
 ### Next steps:
 - [ ] Adding styles for larger devices.
-- [ ] Adding a filter by category functionality.
+- [X] Adding a filter by category functionality.
+- [ ] Adding a search functionality.
 - [ ] Adding a theme color switch.
 - [ ] Adding a loading component.
 - [ ] Add animations.

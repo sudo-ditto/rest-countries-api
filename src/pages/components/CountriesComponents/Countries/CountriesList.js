@@ -13,6 +13,7 @@ const Countries = () => {
     // Get a slice of the store. Retrieve the part of the store that you need
     // useSelector automatically subscribes the component
     const countries = useSelector(state => state.countries.countries);
+    const searchValue = useSelector(state => state.search.value);
 
     const [filteredCountries, setFilteredCountries] = useState([]);
 
