@@ -10,6 +10,13 @@ const ThemeColorSwitch = () => {
 
     const themeToggleHandler = () => {
         dispatch(themeActions.toggleTheme(theme));
+        if(!theme) {
+            // Add class dark 
+            document.body.classList.add('dark-theme');
+        } else {
+            // Clear all classes
+            document.body.classList.remove(...document.body.classList);
+        }
     }
 
     return (
