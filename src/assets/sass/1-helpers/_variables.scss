@@ -1,7 +1,10 @@
 // ------- COLORS -------
 
 // page
+
+// Light theme
 $mainTextColor: #1f1f1f;
+$mainBgColor: hsl(0, 0%, 98%);
 
 // HEADER
 
@@ -13,7 +16,7 @@ $logoBorder: rgb(241, 212, 44);
 $logoBg: transparent;
 
 // COUNTRY LIST
-$countryCardBoxShadow: rgba(175, 175, 175, 0.356);
+$countryCardBoxShadow: rgba(175, 175, 175, 0.233);
 
 // FOOTER
 $footerBg: rgb(241, 212, 44);
