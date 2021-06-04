@@ -1,17 +1,17 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import searchIcon from '../../../../assets/images/search-outline.svg';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { searchActions } from '../../../../recuders/searchFieldReducer';
 
 const SearchField = () => {
-    const value = useSelector(state => state.search.value);
 
     const dispatch = useDispatch();
     
-    const onKeyDownHandler = (event) => {
-        dispatch(searchActions.setSearchValue(event.target.value));
-        console.log(value);
+    const onKeyDownHandler = async (event) => {
+         dispatch(searchActions.setSearchValue(event.target.value));
     }
+
+
 
     return (
         <div className="search-field__container">

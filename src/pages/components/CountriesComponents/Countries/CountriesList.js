@@ -12,10 +12,10 @@ const Countries = () => {
 
     // Get a slice of the store. Retrieve the part of the store that you need
     // useSelector automatically subscribes the component
-    const countries = useSelector(state => state.countries.countries);
+    const allCountries = useSelector(state => state.countries.countries);
     const searchValue = useSelector(state => state.search.value);
 
-    const [filteredCountries, setFilteredCountries] = useState([]);
+    const [localCountries, setLocalCountries] = useState([]);
 
     const error = useSelector(state => state.countries.error)
 
@@ -36,44 +36,72 @@ const Countries = () => {
     }
 
     const fetchAllCountries = async () => {
-        await axios.get(countriesUrl).then((allCountries) => {
+        await axios.get(countriesUrl).then((resCountries) => {
             // Fetch all countries and update state
-            const countriesData = allCountries.data;
+            const countriesData = resCountries.data;
 
             dispatch(countriesActions.setCountries(countriesData));
 
             // Cache all countries
-            cacheCountries(countries);
+            cacheCountries(allCountries);
         });
 
     }
 
     useEffect(() => {
         fetchAllCountries();
-        setFilteredCountries(countries);
+
+        setLocalCountries(allCountries);
     }, []);
 
     // FILTER COUNTRIES FEATURE
-    const filterCountries = () => {
-        setFilteredCountries(countries.filter((country) => country.region === filter));
+    const filterCountries = (inp, type) => {
+        setLocalCountries(allCountries.filter((country) => {
+            if (inp !== 'All') {
+                return country[type] === inp;
+            } else {
+                return country[type];
+            }
+        }
+        ));
+    }
+
+    // SEARCH COUNTRIES FEATURE
+    const searchCountries = (inp) => {
+        setLocalCountries(allCountries.filter((country) => country.name.toLowerCase().includes(inp.toLowerCase())));
     }
 
     useEffect(() => {
-        filterCountries();
+        filterCountries(filter, 'region');
     }, [filter]);
+
+    // Display all countries from search
+    const searchBar = () => {
+        // setCountries(searchValue);
+        // console.log('Filtered');
+        // console.log(filteredCountries);
+    }
+
+    // SEARCH FEATURE
+    useEffect(() => {
+        setTimeout(() => {
+            searchCountries(searchValue);
+        }, 500);
+
+        return () => {
+            console.log('Cleanup');
+        }
+
+    }, [searchValue]);
 
     return (
         <section id="country-list">
             <div className="country-grid">
-                {filter === 'All' ? (countries.map((country) => {
+                {localCountries.map((country) => {
                     return (
                         <Link to={"/" + country.name} key={country.alpha3Code}><CountryCard name={country.name} population={country.population} region={country.region} capital={country.capital} flag={country.flag} /></Link>
-                    )
-                })) : (filteredCountries.map((country) => {
-                    return (
-                        <Link to={"/" + country.name} key={country.alpha3Code}><CountryCard name={country.name} population={country.population} region={country.region} capital={country.capital} flag={country.flag} /></Link>
-                    )
-                }))}
+                    );
+                })}
             </div>
         </section>
     )
