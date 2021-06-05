@@ -9,9 +9,9 @@
         }
 
         .country-data {
-            padding  : 0 50px;
+            padding   : 0 50px;
             box-sizing: border-box;
-            max-width: 50%;
+            max-width : 50%;
 
             .single-data__container {
                 @include flexItem(space-between, center, row);
@@ -19,31 +19,21 @@
         }
     }
 }
+
 @media screen and (min-width: 1150px) {
     .country-data__container {
 
         .flag__container {
             max-width: 45%;
         }
-
-        .country-data {
-
-            .single-data__container {
-            }
-        }
     }
 }
+
 @media screen and (min-width: 1450px) {
     .country-data__container {
 
         .flag__container {
             max-width: 40%;
-        }
-
-        .country-data {
-
-            .single-data__container {
-            }
         }
     }
 }
