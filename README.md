@@ -48,6 +48,26 @@
         <li><a href="#prerequisites">Prerequisites</a></li>
       </ul>
     </li>
+    <li>
+      <a href="#project-status">Project Status</a>
+      <ul>
+        <li><a href="#current">Current</a></li>
+        <li><a href="#next-steps">Next Steps</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#project-screenshots">Project Screenshots</a>
+      <ul>
+        <li><a href="#preview">Preview</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#reflection">Reflection</a>
+      <ul>
+        <li><a href="#goals">Goals</a></li>
+      </ul>
+    </li>
+    <li><a href="#support-me">Support Me</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -147,20 +167,21 @@ This is an example of how to list things you need to use the software and how to
 Adding styles for larger devices and working on the filter by region option.
 
 ### Next steps:
-- [ ] Adding styles for larger devices.
+- [X] Adding styles for larger devices.
 - [X] Adding a filter by category functionality.
 - [X] Adding a search functionality.
 - [X] Adding a theme color switch.
+- [ ] Adding product screenshots.
 - [ ] Adding a loading component.
 - [ ] Add animations.
 - [ ] Optimizing and refactoring code.
 
 
-## Project Screen Shots
+## Project Screenshots
 
-#### Preview:   
+### Preview:   
 
-N/A
+N/A - Coming soon
 
 See live:
 [Portfolio](https://loretta-arineva.dev) 
@@ -173,7 +194,7 @@ See live:
   - Initially I was planning on building this with Context API, however after a while it became so cumbersome that I ended up with some spaghetti code and decided to hard reset to my previous commit. The reason I decided to go with Context API is because I thought Redux would be an overkill for this small app and it gets quite repetitive with creating constants, acitions, reducers, combining reducers etc. Fortunately, I found out about an amazing third-party app, built by the Redux team, called Redux Toolkit which is in my opinion very elegant and helps you write very clean code. In just 20 minutes I got the hang of it and I feel like I just won the lottery today. I love it!
   - P.S by hour 8 I was wondering why my custom component is not rendering and after careful debugging, I saw I wasn't returning it from my map function... this is when I knew I needed a break 
 
-#### Goals:  
+### Goals:  
 
 I have spent a total of 22 hours building this project.
 
@@ -184,7 +205,6 @@ I have spent a total of 22 hours building this project.
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/gbraad)
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/LoretaKrasteva?locale.x=en_GB)
-## License
 
 
 <!-- USAGE EXAMPLES -->
