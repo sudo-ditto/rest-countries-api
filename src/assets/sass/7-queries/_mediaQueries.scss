@@ -1,20 +1,24 @@
 // Single Country 
 @media screen and (min-width: 730px) {
-    .country-data__container {
-        @include flexItem(space-between, center, row);
+    #country {
+        height: calc(100vh - 90px);
+
+        .country-data__container {
+            @include flexItem(space-between, center, row);
 
 
-        .flag__container {
-            width: 50%;
-        }
+            .flag__container {
+                width: 50%;
+            }
 
-        .country-data {
-            padding   : 0 50px;
-            box-sizing: border-box;
-            max-width : 50%;
+            .country-data {
+                padding   : 0 50px;
+                box-sizing: border-box;
+                max-width : 50%;
 
-            .single-data__container {
-                @include flexItem(space-between, center, row);
+                .single-data__container {
+                    @include flexItem(space-between, center, row);
+                }
             }
         }
     }

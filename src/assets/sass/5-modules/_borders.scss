@@ -1,7 +1,14 @@
 .border-list {
     @include flexItem(flex-start, center, row);
+    flex-wrap: wrap;
+    gap: 18px;
     .border {
-        margin-right: 10px;
+        cursor: pointer;
         padding: 10px 15px;
+        border: 1px solid $mainTextColor;
+
+        &:hover {
+            color: $hoverColor;
+        }
     }
 }

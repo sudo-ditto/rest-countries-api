@@ -21,7 +21,13 @@
   </p>
 </p>
 
-
+<a href="https://github.com/loretta-arineva" target="_blank">
+<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+</a>
+<a href="https://linkedin.com/in/loretta-arineva" target="_blank">
+<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+</a>  
+  
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -184,17 +190,22 @@ I have spent a total of 22 hours building this project.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The Where in the world: Rest Countries API project is a website that shows you basic information about all of the countries in the world. 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+On page one, you have the flag, name and some metadata about each country. You also have a search option where you can search for any country and a filter option to filter countries by region.
+
+Upon clicking on a country, you are redirected to a page with more information about the specific country. 
+
+The website also has 
+
+_For more examples, please refer to the [Documentation](https://github.com/loretta-arineva/rest-countries-api)_
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
+See the [open issues](https://github.com/loretta-arineva/rest-countries-api/issues) for a list of proposed features (and known issues).
 
 
 <!-- CONTRIBUTING -->
@@ -219,23 +230,22 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ### Author
 > Loreta Krasteva
 
-Loreta Krasteva - [@your_twitter](https://twitter.com/your_username) - email@example.com
+<a href="https://github.com/loretta-arineva" target="_blank">
+<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+</a>
+<a href="https://linkedin.com/in/loretta-arineva" target="_blank">
+<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+</a>  
+  
+See live: [Rest Countries API: Where in the world](https://rest-countries-api-react-redux.netlify.app/)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/loretta-arineva/rest-countries-api](https://github.com/loretta-arineva/rest-countries-api)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
+* [Stack Overflow](https://stackoverflow.com/)
 * [Font Awesome](https://fontawesome.com)
+* [FRest Countries API](https://restcountries.eu/)
 
