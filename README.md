@@ -13,7 +13,7 @@
     <a href="https://github.com/loretta-arineva/rest-countries-api/#readme"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/loretta-arineva/rest-countries-api/">View Demo</a>
+    <a href="https://rest-countries-api-react-redux.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/loretta-arineva/rest-countries-api/issues">Report Bug</a>
     ·
