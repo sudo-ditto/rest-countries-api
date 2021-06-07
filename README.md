@@ -104,7 +104,8 @@ Your users should be able to:
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This section lists any major frameworks that I used to build my project.
+
 * [React](https://reactjs.org/)
 * [React Router](https://reactrouter.com/)
 * [Redux](https://redux.js.org/)
@@ -267,5 +268,5 @@ Project Link: [https://github.com/loretta-arineva/rest-countries-api](https://gi
 ## Acknowledgements
 * [Stack Overflow](https://stackoverflow.com/)
 * [Font Awesome](https://fontawesome.com)
-* [FRest Countries API](https://restcountries.eu/)
+* [Rest Countries API](https://restcountries.eu/)
 
