@@ -8,7 +8,7 @@ const SearchField = () => {
 
     const dispatch = useDispatch();
 
-    const onKeyDownHandler = async (event) => {
+    const onKeyUpHandler = async (event) => {
         dispatch(searchActions.setSearchValue(event.target.value));
     }
 
@@ -17,7 +17,7 @@ const SearchField = () => {
     return (
         <div className="search-field__container">
             <FontAwesomeIcon icon={faSearch} />
-            <input type="text" placeholder="Search for country..." onKeyDown={onKeyDownHandler} />
+            <input type="text" placeholder="Search for country..." onKeyUp={onKeyUpHandler} />
         </div>
     )
 }

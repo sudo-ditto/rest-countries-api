@@ -29,7 +29,7 @@ const Countries = () => {
 
     useEffect(() => {
         dispatch(filterCountries(allCountries, filter));
-        if (initial.initial ) {
+        if (initial.initial) {
             initial.initial = false;
         }
 
