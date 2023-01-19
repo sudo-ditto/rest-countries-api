@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/loretta-arineva/rest-countries-api/">
+  <a href="https://github.com/sudo-ditto/rest-countries-api/">
     <img src="./src/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
@@ -10,18 +10,18 @@
   <p align="center">
      Front-End Mentor Challenge Solution with React and Redux
     <br />
-    <a href="https://github.com/loretta-arineva/rest-countries-api/#readme"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/sudo-ditto/rest-countries-api/#readme"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://rest-countries-api-react-redux.netlify.app/">View Demo</a>
     ·
-    <a href="https://github.com/loretta-arineva/rest-countries-api/issues">Report Bug</a>
+    <a href="https://github.com/sudo-ditto/rest-countries-api/issues">Report Bug</a>
     ·
-    <a href="https://github.com/loretta-arineva/rest-countries-api/issues">Request Feature</a>
+    <a href="https://github.com/sudo-ditto/rest-countries-api/issues">Request Feature</a>
   </p>
 </p>
 
-<a href="https://github.com/loretta-arineva" target="_blank">
+<a href="https://github.com/sudo-ditto" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
 <a href="https://linkedin.com/in/loretta-arineva" target="_blank">
@@ -226,7 +226,7 @@ _For more examples, please refer to the [Documentation](https://github.com/loret
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/loretta-arineva/rest-countries-api/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/sudo-ditto/rest-countries-api/issues) for a list of proposed features (and known issues).
 
 
 <!-- CONTRIBUTING -->
@@ -251,7 +251,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ### Author
 > Loreta Krasteva
 
-<a href="https://github.com/loretta-arineva" target="_blank">
+<a href="https://github.com/sudo-ditto" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
 <a href="https://linkedin.com/in/loretta-arineva" target="_blank">
@@ -260,7 +260,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
   
 See live: [Rest Countries API: Where in the world](https://rest-countries-api-react-redux.netlify.app/)
 
-Project Link: [https://github.com/loretta-arineva/rest-countries-api](https://github.com/loretta-arineva/rest-countries-api)
+Project Link: [https://github.com/sudo-ditto/rest-countries-api](https://github.com/sudo-ditto/rest-countries-api)
 
 
 
